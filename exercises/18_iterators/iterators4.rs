@@ -10,6 +10,15 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+
+    // my solution.
+    // if num < 1 {
+    //     return 1;
+    // }
+    // factorial(num - 1) * num
+
+    // better solution.
+    (2..=num).product()
 }
 
 fn main() {
